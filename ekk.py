@@ -4,5 +4,5 @@ import os
 
 app = ctk.CTk()
 app.geometry("500x250")
-app.title("file converter")     
+app.title("file converter")
 app.mainloop()
