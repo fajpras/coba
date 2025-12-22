@@ -2,6 +2,7 @@ import customtkinter as ctk
 from tkinterdnd2 import DND_FILES, TkinterDnD
 import os
 
+<<<<<<< HEAD
 from app.file import pilih_file,file_out
 
           
