@@ -22,6 +22,8 @@ def pilih_file():
 def file_out(ext):
         
     path_tujuan = flpp.asksaveasfilename(
+    title='Pilih Lokasi Penyimpanna File',
+    initialdir='/home',
     defaultextension=f".{ext}",
     filetypes=[("All files", "*.*")]
         )
